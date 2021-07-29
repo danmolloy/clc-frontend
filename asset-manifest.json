@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clc-frontend/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/clc-frontend/static/js/main.8e779d77.chunk.js",
+    "main.js.map": "/clc-frontend/static/js/main.8e779d77.chunk.js.map",
+    "runtime-main.js": "/clc-frontend/static/js/runtime-main.f3815d1c.js",
+    "runtime-main.js.map": "/clc-frontend/static/js/runtime-main.f3815d1c.js.map",
+    "static/js/2.c248aec1.chunk.js": "/clc-frontend/static/js/2.c248aec1.chunk.js",
+    "static/js/2.c248aec1.chunk.js.map": "/clc-frontend/static/js/2.c248aec1.chunk.js.map",
+    "static/js/3.2a2e63b1.chunk.js": "/clc-frontend/static/js/3.2a2e63b1.chunk.js",
+    "static/js/3.2a2e63b1.chunk.js.map": "/clc-frontend/static/js/3.2a2e63b1.chunk.js.map",
+    "index.html": "/clc-frontend/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/clc-frontend/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.c248aec1.chunk.js.LICENSE.txt": "/clc-frontend/static/js/2.c248aec1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/clc-frontend/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3815d1c.js",
+    "static/js/2.c248aec1.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.8e779d77.chunk.js"
+  ]
+}
