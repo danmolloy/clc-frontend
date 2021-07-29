@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { Navbar } from './Navbar';
+import { Home } from './Home'
+import { Artists } from './Artists'
+import { Songs } from './Songs'
+import { BrowserRouter as Router,
+  Switch,
+  Route,
+  Link } from 'react-router-dom'
+import { SingleArtist } from './SingleArtist'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route path="/artists/:artistName" component={SingleArtist} />
+          <Route path="/artists" component={Artists} />
+          <Route path="/songs" component={Songs} />
+          <Route path="/" component={Home}/>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
