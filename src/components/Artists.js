@@ -9,19 +9,27 @@ export const Artists = () => {
   }, [])
 
   const getData = () => {
-    fetch('https://raw.githubusercontent.com/danmolloy/clc-frontend/main/public/data.json')
+    const artistsArr = []
+    fetch('data.json', {
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    })
     .then(res => res.json())
     .then(myJson => {
       for (let i = 0; i < myJson.length; i++) {
-        setArtistName([...artistName, myJson[i]['artist']])
+        artistsArr.push(myJson[i]["artist"])
       }
+      setArtistName(artistsArr)
     })
   }
 
   const formattedArtists = artistName.map(i => 
-    <Link to={`/artists/${artistName}`} key={artistName}>{artistName}</Link>
+    <Link to={`/artists/${i}`} key={i} className="artist-link">
+      {i}
+      </Link>
     )
-
 
 
   return (

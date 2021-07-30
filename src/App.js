@@ -1,13 +1,13 @@
 import './App.css';
-import { Navbar } from './Navbar';
-import { Home } from './Home'
-import { Artists } from './Artists'
-import { Songs } from './Songs'
+import { Navbar } from './components/Navbar';
+import { Home } from './components/Home'
+import { Artists } from './components/Artists'
+import { Songs } from './components/Songs'
 import { BrowserRouter as Router,
   Switch,
   Route,
   Link } from 'react-router-dom'
-import { SingleArtist } from './SingleArtist'
+import { SingleArtist } from './components/SingleArtist'
 
 function App() {
   return (
