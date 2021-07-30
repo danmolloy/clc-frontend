@@ -11,7 +11,7 @@ export const Artists = () => {
   })
 
   const getData = () => {
-    fetch('data.json', {
+    fetch('https://raw.githubusercontent.com/danmolloy/clc-frontend/main/public/data.json', {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
