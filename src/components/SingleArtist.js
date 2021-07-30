@@ -6,6 +6,8 @@ export const SingleArtist = () => {
   return (
     <div className="main">
       <h2>{artistName}</h2>
+      <h3>Albums:</h3>
+      <h3>Members:</h3>
     </div>
   )
 }
