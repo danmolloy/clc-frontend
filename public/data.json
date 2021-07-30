@@ -1,4 +1,4 @@
-{
+[{
   "artist":"Breabach",
 	"albums":[
 		[2010,"The Desperate Battle of the Birds", "desperate"],
@@ -7,4 +7,23 @@
 	],
 	"image":"breabach.jpg",
 	"members":"Calum MacCrimmon, Megan Henderson, Ewan Robertson, James Lindsay, and Conal McDonagh"
-}
+},
+{
+	"artist":"Altan",
+	"albums":[
+		[1983, "Ceol Aduaidh","ceoladuaidh"],
+		[1987, "Altan","altan"],
+		[1989, "Horse With a Heart","horseheart"],
+		[1990, "The Red Crow","redcrow"],
+		[1992,"Harvest Storm","harveststorm"],
+		[1993,"Island Angel","islandangel"],
+		[1996,"Blackwater","blackwater"],
+		[1997,"The Best of Altan","best"],
+		[1997,"Runaway Sunday","runaway"],
+		[2000,"Another Sky","anothersky"],
+		[2002,"The Blue Idol","blueidol"],
+		[2005,"Local Ground","localground"]
+	],
+	"image":"photo-altan.jpg",
+	"members":"Dermot Byrne, Ciar&aacute;n Curran, Mark Kelly, Mair&eacute;ad N&iacute; Mhaonaigh, D&aacute;ith&iacute; Sproule &amp; Ciar&aacute;n Tourish"
+}]
