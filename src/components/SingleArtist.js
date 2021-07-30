@@ -1,11 +1,13 @@
+import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
-export const SingleArtist = ({ match }) => {
-  const { artist } = match.params
+export const SingleArtist = () => {
+  const { artistName } = useParams();
 
+  
   return (
     <div className="main">
-      <h1>{artist}</h1>
+      <h2>{artistName}</h2>
     </div>
   )
 }
