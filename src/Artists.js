@@ -11,7 +11,12 @@ export const Artists = () => {
   })
 
   const getData = () => {
-    fetch('https://raw.githubusercontent.com/danmolloy/clc-frontend/main/public/data.json')
+    fetch('https://raw.githubusercontent.com/danmolloy/clc-frontend/main/public/data.json',{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    })
     .then(res => res.json())
     .then(myJson => {
       setArtistName(myJson["artist"])
