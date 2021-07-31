@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clc-frontend/static/css/main.e6f527ec.chunk.css",
-    "main.js": "/clc-frontend/static/js/main.3c50e4d6.chunk.js",
-    "main.js.map": "/clc-frontend/static/js/main.3c50e4d6.chunk.js.map",
+    "main.js": "/clc-frontend/static/js/main.5cb71c13.chunk.js",
+    "main.js.map": "/clc-frontend/static/js/main.5cb71c13.chunk.js.map",
     "runtime-main.js": "/clc-frontend/static/js/runtime-main.8ac6b83e.js",
     "runtime-main.js.map": "/clc-frontend/static/js/runtime-main.8ac6b83e.js.map",
     "static/js/2.2f9bfec3.chunk.js": "/clc-frontend/static/js/2.2f9bfec3.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8ac6b83e.js",
     "static/js/2.2f9bfec3.chunk.js",
     "static/css/main.e6f527ec.chunk.css",
-    "static/js/main.3c50e4d6.chunk.js"
+    "static/js/main.5cb71c13.chunk.js"
   ]
 }
