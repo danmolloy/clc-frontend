@@ -4,7 +4,7 @@
   "author": "Daniel Molloy",
   "email": "danielmolloy_6@icloud.com",
   "license": "MIT",
-  "homepage": "https://danmolloy.github.io/",
+  "homepage": "https://danmolloy.github.io/clc-frontend/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
