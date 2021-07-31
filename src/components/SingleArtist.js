@@ -10,6 +10,7 @@ export const SingleArtist = () => {
     getData()
   }, [])
 
+
   const getData = () => {
     fetch('https://raw.githubusercontent.com/danmolloy/clc-frontend/main/public/data.json')
     .then(res => res.json())
