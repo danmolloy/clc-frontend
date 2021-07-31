@@ -19,6 +19,7 @@ function App() {
           <Route path="/artists" component={Artists} />
           <Route path="/songs" component={Songs} />
           <Route path="/" component={Home}/>
+          <Route path="/clc-frontend" component={Home}/>
         </Switch>
       </div>
     </Router>
