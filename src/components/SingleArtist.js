@@ -37,7 +37,7 @@ export const SingleArtist = () => {
     <div className="main">
       <h2>{artistName}</h2>
       <h3>Albums:</h3>
-      <p>{albums}</p>
+      <p>{albums !== null ? renderedAlbums() : null}</p>
       <h3>Members:</h3>
       <p>{members}</p>
     </div>
