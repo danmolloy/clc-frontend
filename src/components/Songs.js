@@ -2,7 +2,7 @@ export const Songs = () => {
   return (
     <div className="main">
       <h2>Songs</h2>
-      <p>Complete songs list coming soon..</p>
+      <h3>Complete songs list coming soon..</h3>
     </div>
   )
 }
