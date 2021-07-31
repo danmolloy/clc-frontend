@@ -32,6 +32,16 @@ export const SingleArtist = () => {
   }
   
 
+  const renderedMembers = () => {
+    let aAcuteRegEx = /&aacute;/
+    while (aAcuteRegEx.test(members)) {
+      let valIndex = members.match(aAcuteRegEx).valIndex
+      let arrMembers = members.split('')
+      arrMembers.splice(valIndex, 8, 'á')
+      setMembers(arrMembers.join(''))
+    }
+  }
+
 
   return (
     <div className="main">
