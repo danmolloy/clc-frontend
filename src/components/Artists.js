@@ -10,12 +10,7 @@ export const Artists = () => {
 
   const getData = () => {
     const artistsArr = []
-    fetch('data.json', {
-      headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    })
+    fetch('https://raw.githubusercontent.com/danmolloy/clc-frontend/main/public/data.json')
     .then(res => res.json())
     .then(myJson => {
       for (let i = 0; i < myJson.length; i++) {
